@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+body{
+	background: #DC143C;
+	color: black;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+.container{
+	background: #FFA07A;
+	padding: 20px;
+	border-radius: 15px;
+	width: 100%;
+	max-width: 600px;
+	height:
+}
+header{
+	margin-bottom: 30px;
+}
+.title{
+	font-size: 2.5rem;
+	color: #228B22;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.subtitle{
+	font-size: 1.5rem;
+	color: #228B22;
+}
+.calendar{
+	background-color: #9ACD32;
+	padding: 15px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.days-of-week{
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	gap: 10px;
+	margin-bottom: 10px;
+}
+.day{
+	font-weight: bold;
+	font-size: 1.4rem;
+	color: #228B22;
+}
+.day-number{
+	font-size: 1.4rem;
+	background-color: #FA8072;
+	border-radius: 50%;
+	padding: 20px;
+	transition: background-color 0.3s, transform 0.3s;
+	cursor: pointer;
+}
+.day-number:hover{
+	background-color:#FFA07A; 
+	transform:scale(1.1);
+}
+.days{
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	gap: 10px;
+	margin-bottom: 10px;
+}
+.day-number:active{
+	background-color: #8B0000;
+	color: #fff;
+}
+.day-number:nth-child(3){
+	background-color: 	#B22222;
+	color: #fff;
+	font-weight: bold;	
+}
+.tooltip{
+	display: none;
+	position: absolute;
+	background-color:#228B22;
+	color: black;
+	padding: 15px;
+	border-radius: 15px;
+	transform: translateY(-150%);
+	z-index: 10;
+}
+.day-number:hover+.tooltip{
+	display: block;
+
+}

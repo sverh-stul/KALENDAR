@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> KALENDAR</title>
+	<link rel='stylesheet' href="style.css">
+</head>
+<body>
+
+	<div class="container">
+
+
+		<header>
+			<h1 class="title">KALENDAR OF JANUAR 2025</h1>
+			<p class="subtitle">S PRAZDNIKOM AND BLA BLA BLA BLA!</p>
+		</header>
+
+		<div class="calendar">
+
+			<div class="days-of-week">
+				<div class="day">ПН</div>
+				<div class="day">ВТ</div>
+				<div class="day">СР</div>
+				<div class="day">ЧТ</div>
+				<div class="day">ПТ</div>
+				<div class="day">СБ</div>
+				<div class="day">ВС</div>
+			</div>
+
+			<div class="days">
+				<div class="day-number"></div>
+				<div class="day-number"></div>
+				<div class="day-number" onclick="showTooltip(this)">1</div>
+				<div class="tooltip">Never gona give you up</div>
+				<div class="day-number" onclick="showTooltip(this)">2</div>
+				<div class="tooltip">Never gonna let you down</div>
+				<div class="day-number" onclick="showTooltip(this)">3</div>
+				<div class="tooltip">Never gonna run around and desert you</div>
+				<div class="day-number" onclick="showTooltip(this)">4</div>
+				<div class="tooltip">Never gonna make you cry</div>
+				<div class="day-number" onclick="showTooltip(this)">5</div>
+				<div class="tooltip">Never gonna say goodbye</div>
+
+				<div class="day-number" onclick="showTooltip(this)">6</div>
+				<div class="tooltip">Never gonna tell a lie and hurt you</div>
+				<div class="day-number" onclick="showTooltip(this)">7</div>
+				<div class="tooltip">We've known each other for so long</div>
+				<div class="day-number" onclick="showTooltip(this)">8</div>
+				<div class="tooltip">Your heart's been aching, but you're too shy to say it</div>
+				<div class="day-number" onclick="showTooltip(this)">9</div>
+				<div class="tooltip">Inside, we both know what's been going on</div>
+				<div class="day-number" onclick="showTooltip(this)">10</div>
+				<div class="tooltip">We know the game and we're gonna play it</div>
+				<div class="day-number" onclick="showTooltip(this)">11</div>
+				<div class="tooltip">And if you ask me how I'm feeling</div>
+				<div class="day-number" onclick="showTooltip(this)">12</div>
+				<div class="tooltip">Don't tell me you're too blind to see</div>
+
+				<div class="day-number" onclick="showTooltip(this)">13</div>
+				<div class="tooltip">Never gona give you up</div>
+				<div class="day-number" onclick="showTooltip(this)">14</div>
+				<div class="tooltip">Never gonna let you down</div>
+				<div class="day-number" onclick="showTooltip(this)">15</div>
+				<div class="tooltip">Never gonna run around and desert you</div>
+				<div class="day-number" onclick="showTooltip(this)">16</div>
+				<div class="tooltip">Never gonna make you cry</div>
+				<div class="day-number" onclick="showTooltip(this)">17</div>
+				<div class="tooltip">Never gonna say goodbye</div>
+				<div class="day-number" onclick="showTooltip(this)">18</div>
+				<div class="tooltip">Never gonna tell a lie and hurt you</div>
+				<div class="day-number" onclick="showTooltip(this)">19</div>
+				<div class="tooltip">We've known each other for so long</div>
+
+				<div class="day-number" onclick="showTooltip(this)">20</div>
+				<div class="tooltip">Your heart's been aching, but you're too shy to say it</div>
+				<div class="day-number" onclick="showTooltip(this)">21</div>
+				<div class="tooltip">Inside, we both know what's been going on</div>
+				<div class="day-number" onclick="showTooltip(this)">22</div>
+				<div class="tooltip">Never gona give you up</div>
+				<div class="day-number" onclick="showTooltip(this)">23</div>
+				<div class="tooltip">We know the game and we're gonna play it</div>
+				<div class="day-number" onclick="showTooltip(this)">24</div>
+				<div class="tooltip">I just wanna tell you how I'm feeling</div>
+				<div class="day-number" onclick="showTooltip(this)">25</div>
+				<div class="tooltip">Gotta make you understand</div>
+				<div class="day-number" onclick="showTooltip(this)">26</div>
+				<div class="tooltip">Never gonna give you up</div>
+
+				<div class="day-number" onclick="showTooltip(this)">27</div>
+				<div class="tooltip">Never gonna let you down</div>
+				<div class="day-number" onclick="showTooltip(this)">28</div>
+				<div class="tooltip">Never gonna run around and desert you</div>
+				<div class="day-number" onclick="showTooltip(this)">29</div>
+				<div class="tooltip">Never gonna make you cry</div>
+				<div class="day-number" onclick="showTooltip(this)">30</div>
+				<div class="tooltip">Never gonna say goodbye</div>
+				<div class="day-number" onclick="showTooltip(this)">31</div>
+				<div class="tooltip">Never gonna tell a lie and hurt you</div>
+				<div class="day-number"></div>
+				<div class="day-number"></div>
+			</div>
+
+		</div>
+<script>
+	function showTooltip(dayElement){
+		const tooltip = dayElement.nextElementSibling;
+		tooltip.style.display=tooltip.style.display=== 'block'?'none':'block';
+	}
+</script>
+
+
+	</div>
+
+</body>
+</html>
